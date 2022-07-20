@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flags
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: 0 auto ;
+    
+}
+.flag
+{
+    width: 300px;
+    height: 150px;
+    margin: 20px 0;
+    border: 0.1px solid #D3D3D3;
+    box-shadow: 10px 5px 5px 4px grey;
+}
+.ukraine-first
+{
+    height: 50%;
+    background-color: blue;
+}
+.ukraine-second
+{
+    height: 50%;
+    background-color: yellow;
+}
+.japan
+{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center
+{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+}
+.iceland
+{
+    position: relative;
+    background-color: red;
+}
+.iceland-1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 65px;
+    background: #0000CD;
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+}
+.iceland-2
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 65px;
+    background: #0000CD;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+}
+
+.iceland-3
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 65px;
+    background: #0000CD;
+    border-left: 10px solid white;
+    border-bottom: 10px solid white;
+}
+
+.iceland-4
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 65px;
+    background: #0000CD;
+    border-left: 10px solid white;
+    border-top: 10px solid white;
+}
+.czech
+{
+    background-color: #0000CD;
+}
+.czech-1
+{
+    height: 50%;
+    background:linear-gradient(45deg, transparent 53px, #fff 0);
+}
+.czech-2
+{
+    height: 50%;
+    background:linear-gradient(135deg, transparent 53px, red 0);
+}
